@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharun's Portfolio | Linux Terminal</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-bg"></canvas>
+
+    <!-- Content Container -->
+    <div class="container">
+
+        <!-- Boot Screen Overlay -->
+        <div id="boot-screen">
+            <div id="boot-log"></div>
+        </div>
+
+        <!-- Terminal Interface -->
+        <div id="terminal" class="hidden">
+            <div id="terminal-output">
+                <!-- Welcome/Initial ASCII Art will go here -->
+            </div>
+
+            <div class="input-line">
+                <span class="prompt">
+                    <span class="user">guest</span><span class="at">@</span><span
+                        class="host">tharun-portfolio</span>:<span class="path">~</span>$
+                </span>
+                <input type="text" id="command-input" autocomplete="off" spellcheck="false" autofocus>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script type="module" src="/script.js"></script>
+</body>
+
+</html>
