@@ -313,7 +313,7 @@ function executeCommand(cmd) {
             response = `
 <div class="fade-in">
     <span class="text-green">Generating download link...</span><br>
-    <a href="TharunPV_Resume.pdf" download>Click here to download Resume.pdf</a>
+    <a href="/TharunPV_Resume.pdf" download>Click here to download Resume.pdf</a>
 </div>
             `;
             break;
