@@ -284,16 +284,24 @@ function executeCommand(cmd) {
     <span class="text-green"># Recent Projects</span> (Click to view)
     <div class="grid-container">
         <div class="grid-item">
-            <a href="#" target="_blank">1. Autonomous Robot</a><br>
-            <small class="text-grey">Obstacle avoidance & path planning using ROS2.</small>
+            <a href="https://github.com/Tharun-PV/DocPlainer-RAG-Chatbot" target="_blank">1. DocPlainer-RAG-Chatbot</a><br>
+            <small class="text-grey">Built a RAG chatbot using embeddings, vector search, and LLMs (OpenAI, Groq, Gemini) for document Q&A.</small>
         </div>
         <div class="grid-item">
-            <a href="#" target="_blank">2. IoT Home Automation</a><br>
-            <small class="text-grey">ESP32 based smart home system controlled via App.</small>
+            <a href="https://pubs.aip.org/aip/acp/article-abstract/3279/1/020131/3341707/AR-assistive-autonomous-bot-for-immersive-hands" target="_blank">2. Autonomous-Bot</a><br>
+            <small class="text-grey">Developed an AR-assisted robotic system using sensors, tracking algorithms, and embedded systems for autonomous navigation..</small>
         </div>
         <div class="grid-item">
-            <a href="#" target="_blank">3. Portfolio Terminal</a><br>
-            <small class="text-grey">This very website! Built with Vanilla JS.</small>
+            <a href="https://github.com/Tharun-PV/OCR-AV-Detector" target="_blank">3. OCR-AV-Detector (Real-Time OCR Error & Keyword Monitoring Tool)</a><br>
+            <small class="text-grey">Built a real-time OCR tool with Tesseract to detect errors and keywords from live video streams and Automated UI bug detection.</small>
+        </div>
+        <div class="grid-item">
+            <a href="https://github.com/Tharun-PV/AMR-Price-Tracker" target="_blank">4. AMR-Price-Tracker (Live Commodity Tracking + Slack Webhook Alerts)</a><br>
+            <small class="text-grey">Developed a web app to fetch live prices of gold, silver, and diamonds with real-time value display and historical trends Integrated a date-range selector.</small>
+        </div>
+        <div class="grid-item">
+            <a href="https://github.com/Tharun-PV/mcp-server" target="_blank">5. Open Source Contribution: DevRev (MCP API Server)</a><br>
+            <small class="text-grey">Contributed to the DevRev MCP API server, adding automated testing, CI/CD integration, and workflow automation for reliable backend execution.</small>
         </div>
     </div>
 </div>
